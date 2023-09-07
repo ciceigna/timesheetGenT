@@ -1,0 +1,62 @@
+body {
+    background-color: #273b56;
+  }
+  
+  .t{
+      text-align: center;
+      font-size: 80px;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      color: #ec212d;
+  }
+
+    .tarjetas {
+      justify-content: space-around;
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      padding: 60px;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+  }
+  
+  header {
+      text-align: center;
+      margin-bottom: 20px;
+  }
+  
+  .crud-section {
+      max-width: 600px;
+      margin: 0 auto;
+      color: #ffffff;
+  }
+  
+  form label, form input, form button {
+      display: block;
+      margin-bottom: 10px;
+      width: 100%;
+  }
+  
+  ul {
+      list-style: none;
+      padding: 0;
+  }
+  
+  li {
+      margin-bottom: 10px;
+  }
+  
+  button {
+      background-color: #ec212d;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      cursor: pointer;
+  }
+  
+  button:hover {
+      background-color: #c21b26;
+  }

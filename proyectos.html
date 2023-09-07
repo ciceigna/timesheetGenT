@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TimeSheet - Gestión de Recursos</title>
+    <link rel="stylesheet" href="SP.css">
+</head>
+<body>
+    <header>
+        <h1>Gestión de Recursos</h1>
+    </header>
+    <section class="crud-section">
+        <h2>Recursos</h2>
+        <form id="resource-form">
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="surname">Apellido:</label>
+            <input type="text" id="surname" name="surname" required>
+            <label for="availability">Disponibilidad:</label>
+            <input type="text" id="availability" name="availability" required>
+            <label for="role">Rol:</label>
+            <input type="text" id="role" name="role" required>
+            <button type="submit">Agregar Recurso</button>
+        </form>
+        <ul id="resource-list"></ul>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
