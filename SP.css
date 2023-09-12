@@ -2,61 +2,70 @@ body {
     background-color: #273b56;
   }
   
-  .t{
-      text-align: center;
-      font-size: 80px;
-      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-      color: #ec212d;
-  }
+.t{
+    text-align: center;
+    font-size: 80px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #ec212d;
+}
 
-    .tarjetas {
-      justify-content: space-around;
-      display: flex;
-      flex-wrap: wrap;
-      flex-direction: row;
-      padding: 60px;
-    }
+.tarjetas {
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 60px;
+}
 
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 20px;
-  }
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
   
-  header {
-      text-align: center;
-      margin-bottom: 20px;
-  }
+header {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
   
-  .crud-section {
-      max-width: 600px;
-      margin: 0 auto;
-      color: #ffffff;
-  }
+.crud-section {
+    max-width: 600px;
+    margin: 0 auto;
+    color: #ffffff;
+}
   
-  form label, form input, form button {
-      display: block;
-      margin-bottom: 10px;
-      width: 100%;
-  }
+form label, form input, form button {
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+}
   
-  ul {
-      list-style: none;
-      padding: 0;
-  }
+ul {
+    list-style: none;
+    padding: 0;
+}
   
-  li {
-      margin-bottom: 10px;
-  }
+li {
+    margin-bottom: 10px;
+}
   
-  button {
-      background-color: #ec212d;
-      color: #fff;
-      border: none;
-      padding: 10px 20px;
-      cursor: pointer;
-  }
+button {
+    background-color: #ec212d;
+    color: #fff;
+    padding: 10px 20px;
+    cursor: pointer;
+    height: 55px;
+    border-radius: 100px;
+}
   
-  button:hover {
-      background-color: #c21b26;
-  }
+button:hover {
+    background-color: #c21b26;
+}
+
+.c{
+    width: 593px;
+    height: 30px;
+    border-radius: 20px;
+
+}
