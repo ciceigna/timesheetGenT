@@ -8,22 +8,38 @@
 </head>
 <body>
     <header>
-        <h1>Gestión de Recursos</h1>
+        <h1>Personal</h1>
     </header>
     <section class="crud-section">
         <h2>Recursos</h2>
         <form id="resource-form">
             <label for="name">Nombre:</label>
-            <input type="text" id="name" name="name" required>
+            <input class="c" type="text" id="name" name="name" required>
+            <br>
             <label for="surname">Apellido:</label>
-            <input type="text" id="surname" name="surname" required>
+            <input class="c" type="text" id="surname" name="surname" required>
+            <br>
             <label for="availability">Disponibilidad:</label>
-            <input type="text" id="availability" name="availability" required>
+            <input class="c" type="text" id="availability" name="availability" required>
+            <br>
             <label for="role">Rol:</label>
-            <input type="text" id="role" name="role" required>
-            <button type="submit">Agregar Recurso</button>
+            <input class="c" type="text" id="role" name="role" required>
+            <br><br>
+            <button type="submit">Agregar</button>
         </form>
-        <ul id="resource-list"></ul>
+        <div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nombre</th>
+                        <th>Apellido</th>
+                        <th>Disponibilidad</th>
+                        <th>Rol</th>
+                    </tr>
+                </thead>
+                <tbody id="resource-list"></tbody>
+            </table>
+        </div>
     </section>
     <script src="script.js"></script>
 </body>
