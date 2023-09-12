@@ -8,19 +8,41 @@
 </head>
 <body>
     <header>
-        <h1>Gestión de Recursos</h1>
+        <h1>AMBC de Proyectos</h1>
     </header>
     <section class="crud-section">
         <h2>Recursos</h2>
         <form id="resource-form">
             <label for="name">Nombre:</label>
-            <input type="text" id="name" name="name" required>
-            <label for="surname">Apellido:</label>
-            <input type="text" id="surname" name="surname" required>
-            <label for="availability">Disponibilidad:</label>
-            <input type="text" id="availability" name="availability" required>
-            <label for="role">Rol:</label>
-            <input type="text" id="role" name="role" required>
+            <input class="c" type="text" id="name" name="name" required>
+            <br>
+            <label for="surname">Tipo:</label>
+            <input class="c" type="text" id="surname" name="surname" required>
+            <br>
+            <label for="name">Responsable comercial:</label>
+            <input class="c" type="text" id="availability" name="availability" required>
+            <br>
+            <label for="name">Responsable de gestión:</label>
+            <input class="c" type="text" id="role" name="role" required>
+            <br>
+            <label for="date">Fecha de inicio ideal:</label>
+            <input class="c" type="date" id="role" name="role" required>
+            <br>
+            <label for="date">Fecha de inicio real:</label>
+            <input class="c" type="date" id="role" name="role" required>
+            <br>
+            <label for="date">Fecha de fin ideal:</label>
+            <input class="c" type="date" id="role" name="role" required>
+            <br>
+            <label for="date">Fecha de fin real:</label>
+            <input class="c" type="date" id="role" name="role" required>
+            <br>
+            <label for="list">Listado de recursos asignados:</label>
+            <input class="c" type="text" id="role" name="role" required>
+            <br>
+            <label for="use">Dedicación del recurso:</label>
+            <input class="c" type="text" id="role" name="role" required>
+            <br><br>
             <button type="submit">Agregar Recurso</button>
         </form>
         <ul id="resource-list"></ul>
