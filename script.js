@@ -10,9 +10,15 @@ document.addEventListener('DOMContentLoaded', function() {
         const availability = document.getElementById('availability').value;
         const role = document.getElementById('role').value;
 
-        const listItem = document.createElement('li');
-        listItem.innerHTML = `<strong>${name} ${surname}</strong> - Disponibilidad: ${availability} - Rol: ${role}`;
-        resourceList.appendChild(listItem);
+        const tableRow = document.createElement('tr');
+        tableRow.innerHTML = `
+            <td>${name}</td>
+            <td>${surname}</td>
+            <td>${availability}</td>
+            <td>${role}</td>
+        `;
+
+        resourceList.appendChild(tableRow);
 
         resourceForm.reset();
     });
