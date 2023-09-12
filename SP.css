@@ -1,5 +1,8 @@
 body {
     background-color: #273b56;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
   }
   
 .t{
@@ -17,12 +20,6 @@ body {
     padding: 60px;
 }
 
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 20px;
-}
-  
 header {
     text-align: center;
     margin-bottom: 20px;
